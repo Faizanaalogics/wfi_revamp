@@ -1,0 +1,29 @@
+section{
+    .c_banner_title{
+        font-weight: bold;
+        font-size: 70px;
+    }
+    .c_banner_description{
+            font-weight: bold;
+            color: var(--dark-gray);
+            font-size: 18px;
+    }
+    .banner_review {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        box-shadow: 0px 3px 6px #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+        .banner_review_description{
+            p{
+                color: var(--light-gray);
+            }
+        }
+        .rating {
+            display: flex;
+            column-gap: 5px;
+        }
+    }
+}
