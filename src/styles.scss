@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+
+
+
+:root {
+    --primary-color: #224DD0;
+    --secondry-color: #0E8C59;
+    --dark-gray: #444444;
+    --light-gray: #A2A2A2;
+    --gray: #313131;
+    --black: #000000;
+    --white: #fff;
+    
+
+    --bs-body-font-family: 'Inter', 'sans-serif';
+    --bs-primary-rgb: 217, 98, 0;
+    // --bs-primary-rgb: #224DD0;
+}
+.section_space{
+    margin: 50px 0 25px;
+}
+.c-primary {
+    color: var(--primary-color);
+}
+.c-black {
+    color: var(--black);
+}
+
+body{
+    font-family: var(--bs-body-font-family);
+}
+::selection { background: var(--primary-color); color: #fff; text-shadow: none; }
+::-webkit-scrollbar {width:10px; height:10px;} ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment { display:none; }
+::-webkit-scrollbar-track-piece {background-color:#ecedf1; -webkit-border-radius:0px; border-left:1px solid #888; }
+::-webkit-scrollbar-thumb:vertical { -webkit-border-radius:0px; background:var(--primary-color);}
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    font-weight: 600;
+}
+h2{
+    text-transform: capitalize; 
+    // font-weight: 800; 
+    // font-size: 2.2rem;
+}
+.btn {
+    &-primary {
+        --bs-btn-bg: var(--primary-color);
+        --bs-btn-hover-bg: var(--bs-white);
+        --bs-btn-hover-color: var(--primary-color);
+        --bs-btn-border-color: var(--primary-color);
+        --bs-btn-hover-border-color: var(--primary-color);
+    }
+}
+

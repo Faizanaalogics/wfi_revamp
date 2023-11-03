@@ -1,0 +1,22 @@
+footer{
+    .footer_description, .footer_copyright{
+        p{
+            color: var(--light-gray);
+            font-size: 12px;
+        }
+    }
+    h5{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    ul {
+        li{
+            a {
+                color: var(--light-gray);
+                text-decoration: none;
+                font-size: 12px;
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,47 @@
+.our_bootcamps_work{
+    .our_bootcamps_work_title{
+        background-color: var(--secondry-color);
+        padding: 15px 0;
+        margin-bottom: 40px;
+        h3{
+            color: var(--white);
+            padding-left: 40px;
+        }
+    }
+    .row{
+        align-items: center;
+    }
+    .our_bootcamps_list {
+        display: flex;
+        column-gap: 20px;
+        margin: 20px 0 20px;
+        h5 {
+            margin-bottom: 0;
+        }
+        .our_bootcamps_list_des {
+            border-bottom: 1px solid lightgray;
+            display: block;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    .our_bootcamps_image{
+        img{
+            width: 100%;
+        }
+    }
+    .cst__button {
+        text-align: center;
+        .cst__btn{
+            background: var( --primary-color);
+            min-width: 80%;
+            color:var(--white);
+            font-weight: 600;
+        }
+    }
+    
+}
+
+
+
+
