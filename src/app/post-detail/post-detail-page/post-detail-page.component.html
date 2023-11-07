@@ -1,0 +1,15 @@
+<div class="container" *ngIf="blog" id="blog-{{blog.post_id}}">
+    <div class="row align-items-center gx-md-5">
+        <div class="col-12 col-md-12 ">
+            <div class="blog__cm_header blog-img"><img src="{{blog.featured_image}}" alt="banner-img" class="img-fluid"/></div>
+        </div>
+        <div class="col-12 col-md-12 mt-4">
+            <h1 class="fw-normal mb-4">
+              <span class="text-primary fw-semibold">{{blog.title}}</span>
+            </h1>
+            <div [innerHTML]="blog.content"></div><br/>
+            <div class="author"><strong>Author: </strong> <Span style=" font-weight: 500; ">{{blog.author.name}}</Span></div>
+        </div>
+        
+    </div>
+</div>

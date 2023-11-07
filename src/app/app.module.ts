@@ -18,6 +18,7 @@ import { OurBootcampsComponent } from './pages/home/our-bootcamps/our-bootcamps.
 import { OurPartnersComponent } from './pages/home/our-partners/our-partners.component';
 import { HomeBlogComponent } from './pages/home/home-blog/home-blog.component';
 import { OurGraduatesSayingComponent } from './pages/home/our-graduates-saying/our-graduates-saying.component';
+import { PostDetailPageComponent } from './post-detail/post-detail-page/post-detail-page.component';
 
 @NgModule({
   declarations: [
@@ -31,14 +32,16 @@ import { OurGraduatesSayingComponent } from './pages/home/our-graduates-saying/o
     OurBootcampsComponent,
     OurPartnersComponent,
     HomeBlogComponent,
-    OurGraduatesSayingComponent
+    OurGraduatesSayingComponent,
+    PostDetailPageComponent
   ],
   imports: [
     BrowserModule,
     NgbNavModule,
     NgbDropdownModule,
     AppRoutingModule,
-    NgbCarouselModule
+    NgbCarouselModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
