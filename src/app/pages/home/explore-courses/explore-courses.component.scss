@@ -1,0 +1,18 @@
+.explore_courses{
+    .explore_courses_title{
+        background-color: var(--primary-color);
+    padding: 15px 0;
+    margin-bottom: 40px;
+    h3{
+        color: var(--white);
+    padding-left: 40px;
+    }
+    }
+    .tab-content {
+        display: none;
+      }
+      
+      .active-tab {
+        display: block;
+      }
+}
