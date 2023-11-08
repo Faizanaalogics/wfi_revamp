@@ -1,0 +1,59 @@
+.our_graduates_are_saying{
+    background: var(--bs-blue);
+    padding-bottom: 70px !important;
+    .our_graduates__saying{
+        display: flex;
+        column-gap: 10px;
+        background: var(--white);
+        padding: 10px 15px 5px;
+        .our_graduates__saying_video {
+            overflow: hidden;
+        }
+    }
+    .graduate-carousel_title{
+        color: var(--white);
+    }
+}
+.graduates_testimonials{
+    margin-top: 90px;
+    .graduates_reviews {
+        background: var(--white);
+        padding: 15px 15px;
+        .graduates_reviews_top_section {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            .graduates_reviews_title {
+                h6 {
+                    font-size: 18px;
+                    margin-bottom: 0;
+                }
+                p{
+                   color: var(--light-gray);
+                }
+            }
+            .graduates_reviews_title {
+                p {
+                    font-size: 14px;
+                    margin-bottom: 0;
+                    color:var(--grey);
+                }
+            }
+            .graduates_reviews_rating {
+                display: flex;
+                align-items: flex-start;
+                column-gap: 8px;
+                margin-left: auto;
+            }
+        }
+        .graduates_reviews_description{
+            margin-top: 20px;
+            color: var(--grey);
+        }
+    }
+}
+
+
+
+
+
