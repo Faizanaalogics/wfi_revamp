@@ -19,6 +19,7 @@ import { OurPartnersComponent } from './pages/home/our-partners/our-partners.com
 import { HomeBlogComponent } from './pages/home/home-blog/home-blog.component';
 import { OurGraduatesSayingComponent } from './pages/home/our-graduates-saying/our-graduates-saying.component';
 import { PostDetailPageComponent } from './post-detail/post-detail-page/post-detail-page.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PostDetailPageComponent } from './post-detail/post-detail-page/post-det
     OurPartnersComponent,
     HomeBlogComponent,
     OurGraduatesSayingComponent,
-    PostDetailPageComponent
+    PostDetailPageComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
