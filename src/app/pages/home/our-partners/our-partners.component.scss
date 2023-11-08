@@ -1,0 +1,19 @@
+
+.our_partners_section{
+    .our_partners_image {
+        img {
+            filter: grayscale(100%);
+            transition: filter 0.3s; /* Add a smooth transition effect */
+            &:hover{
+                filter: grayscale(0%);
+            }
+        }
+        
+    }
+
+}
+
+/* Remove grayscale filter on hover */
+// .image-container img:hover {
+   
+// }

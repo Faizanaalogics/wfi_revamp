@@ -1,6 +1,6 @@
 section{
     .c_banner_title{
-        font-weight: bold;
+        font-weight: 900;
         font-size: 70px;
     }
     .c_banner_description{
@@ -26,4 +26,9 @@ section{
             column-gap: 5px;
         }
     }
+}
+iframe .hs_firstname {
+    background: green !important;
+    color: red;
+    padding-bottom: 10px !important;
 }
