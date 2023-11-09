@@ -1,0 +1,13 @@
+.parner__logos{
+    .parner__logos_row{
+       margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .parner__logos{
+        .parner__logos_row{
+            text-align: center;
+            row-gap: 30px;
+        }
+    }
+}

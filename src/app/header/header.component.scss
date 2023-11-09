@@ -45,3 +45,59 @@ a.dropdown-toggle.nav-link.three_level:hover {
     column-gap: 10px;
 }
 }
+
+
+
+@media only screen and (max-width: 767px){
+    .cst_mobile_header{
+       
+        #navbarNav .navbar-nav .show > .nav-link, .navbar-nav .nav-link {
+            padding-left: 10px;
+        }
+        // li.nav-item.show.dropdown a:nth-child(1){
+        //     color: white;
+        //     background: blue;
+        // }
+        li.nav-item.show.dropdown{
+            .dropdown-toggle.nav-link{
+                
+            }
+
+            a.dropdown-toggle.nav-link {
+                
+            }
+            .dropdown-menu.show {
+                display: block;
+                width: 100%;
+                position: relative!important;
+                transform: translateZ(0)!important;
+                border-radius: 0;
+                background: #8793b9;
+                border: none;
+            }
+        }
+        li.nav-item.show.dropdown{
+            >  a.dropdown-toggle.nav-link{
+                background-color: var(--primary-color);
+                color: var(--bs-white);
+                
+            }
+            .show.dropdown{
+                > .dropdown-toggle.nav-link{
+                    background-color: var(--primary-color);
+                    color: var(--bs-white);
+                    
+                }
+                .dropdown-menu.show{
+                    button.dropdown-item {
+                        border-bottom: 1px solid var(--primary-color);
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+         
+        }
+        
+    }
+    
+}
