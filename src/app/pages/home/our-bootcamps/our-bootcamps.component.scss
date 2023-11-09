@@ -41,7 +41,13 @@
     }
     
 }
-
+@media only screen and (max-width: 767px){
+    .our_bootcamps_work{
+        .our_bootcamps_image {
+            margin-top: 30px;
+        }
+    }
+}
 
 
 
