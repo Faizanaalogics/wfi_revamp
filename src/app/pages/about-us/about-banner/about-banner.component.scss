@@ -1,0 +1,28 @@
+.about_us_banner{
+    background-color: var(--primary-color);
+    background-image: url("../../../../assets/images/about_us_banner_image.webp");
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    .about_us_banner_content_details{
+        position: absolute;
+        max-width: 40%;
+        top: 30%;
+        color: var(--white);
+        font-weight: bold;
+        .about_us_banner_title{
+            font-weight: bold;
+            font-size: 24px;
+            padding: 10px 0;
+            display: block;
+        }
+        h1{
+            span{
+                background-color: #0E8C59;
+                padding: 0 10px;
+            }
+        }
+    }
+}

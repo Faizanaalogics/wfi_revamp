@@ -20,6 +20,9 @@ import { HomeBlogComponent } from './pages/home/home-blog/home-blog.component';
 import { OurGraduatesSayingComponent } from './pages/home/our-graduates-saying/our-graduates-saying.component';
 import { PostDetailPageComponent } from './post-detail/post-detail-page/post-detail-page.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { AboutBannerComponent } from './pages/about-us/about-banner/about-banner.component';
+import { AboutContentComponent } from './pages/about-us/about-content/about-content.component';
+import { ClassroomValuesComponent } from './pages/about-us/classroom-values/classroom-values.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     HomeBlogComponent,
     OurGraduatesSayingComponent,
     PostDetailPageComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    AboutBannerComponent,
+    AboutContentComponent,
+    ClassroomValuesComponent
   ],
   imports: [
     BrowserModule,
