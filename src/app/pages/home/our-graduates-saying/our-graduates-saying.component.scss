@@ -19,6 +19,7 @@
     .graduates_reviews {
         background: var(--white);
         padding: 15px 15px;
+        height: 100%;
         .graduates_reviews_top_section {
             display: flex;
             align-items: center;
@@ -52,6 +53,9 @@
         }
     }
 }
+.graduates_testimonials .slick-slide {
+    margin-right: 20px; /* Adjust this value as needed */
+  }
 @media only screen and (max-width: 767px){
     .graduates_testimonials{
         .graduates_reviews{
