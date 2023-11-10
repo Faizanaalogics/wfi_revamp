@@ -23,6 +23,8 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { AboutBannerComponent } from './pages/about-us/about-banner/about-banner.component';
 import { AboutContentComponent } from './pages/about-us/about-content/about-content.component';
 import { ClassroomValuesComponent } from './pages/about-us/classroom-values/classroom-values.component';
+import { UiUxDesignComponent } from './pages/ui-ux-design/ui-ux-design.component';
+import { UiUxBannerComponent } from './pages/ui-ux-design/ui-ux-banner/ui-ux-banner.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { ClassroomValuesComponent } from './pages/about-us/classroom-values/clas
     AboutUsComponent,
     AboutBannerComponent,
     AboutContentComponent,
-    ClassroomValuesComponent
+    ClassroomValuesComponent,
+    UiUxDesignComponent,
+    UiUxBannerComponent
   ],
   imports: [
     BrowserModule,
