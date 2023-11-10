@@ -1,0 +1,78 @@
+
+section.about_banner_section{
+    background-image: url("./../../../../assets/images/ui-ux-banner-image.webp");
+    height: 800px;
+    width: 100%;
+    display: block;
+    position: relative;
+    clear: both;
+    top: 0;
+    margin-top: 0;
+    .about_banner_details{
+        position: relative;
+        left: unset;
+        margin: auto;
+        right: unset;
+        top: 12%;
+        // left: 8%;
+    }
+   
+    .c_banner_title{
+        font-weight: 900;
+        font-size: 70px;
+        span{
+            color: var(--white);
+        }
+        .span_higlight{
+          background-color: var(--black);
+          padding: 0 10px;  
+        }
+
+    }
+    .c_banner_description{
+            font-weight: bold;
+            color: var(--white);
+            font-size: 18px;
+    }
+    .main_banner_form{
+        // box-shadow: 0px 0px 10px 0px lightgray;
+        padding: 50px;
+        background-color: var(--white);
+    }
+    .banner_review {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        // box-shadow: 0px 3px 6px #f1f1f1;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 40px;
+        background-color: var(--white);
+        .banner_review_description{
+            p{
+                color: var(--black);
+            }
+        }
+        .rating {
+            display: flex;
+            column-gap: 5px;
+        }
+    }
+}
+section.about_banner_section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #224DD0 ; /* Adjust the color and opacity as needed */
+    opacity: 0.3;
+}
+@media only screen and (max-width: 767px){
+    section.about_banner_section{
+        .c_banner_title{
+            font-size: 42px;
+        }
+    }
+}

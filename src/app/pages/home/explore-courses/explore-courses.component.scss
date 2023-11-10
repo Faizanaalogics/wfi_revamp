@@ -28,7 +28,27 @@
                 &:hover{
                     cursor: pointer;
                 }
+                &.active{
+                    position: relative;
+                    a{
+                        color: var(--primary-color);
+                        
+                       
+                    }
+                    &::before{
+                        content: "";
+                        background-image: url("../../../../assets/images/arrow_right.svg");
+                        display: block;
+                        height: 100%;
+                        width: 20px;
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        top: 32%;
+                    }
+                   
+                }
             }
+         
         }
       }
       .tab-content{
