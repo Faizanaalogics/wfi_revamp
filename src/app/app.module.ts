@@ -25,6 +25,10 @@ import { AboutContentComponent } from './pages/about-us/about-content/about-cont
 import { ClassroomValuesComponent } from './pages/about-us/classroom-values/classroom-values.component';
 import { UiUxDesignComponent } from './pages/ui-ux-design/ui-ux-design.component';
 import { UiUxBannerComponent } from './pages/ui-ux-design/ui-ux-banner/ui-ux-banner.component';
+import { UiUxBootcampExperienceComponent } from './pages/ui-ux-design/ui-ux-bootcamp-experience/ui-ux-bootcamp-experience.component';
+import { UiUxBootcampOverviewComponent } from './pages/ui-ux-design/ui-ux-bootcamp-overview/ui-ux-bootcamp-overview.component';
+import { UiUxWellpaidCareerComponent } from './pages/ui-ux-design/ui-ux-wellpaid-career/ui-ux-wellpaid-career.component';
+import { UiUxWhatWillLearnComponent } from './pages/ui-ux-design/ui-ux-what-will-learn/ui-ux-what-will-learn.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +49,11 @@ import { UiUxBannerComponent } from './pages/ui-ux-design/ui-ux-banner/ui-ux-ban
     AboutContentComponent,
     ClassroomValuesComponent,
     UiUxDesignComponent,
-    UiUxBannerComponent
+    UiUxBannerComponent,
+    UiUxBootcampExperienceComponent,
+    UiUxBootcampOverviewComponent,
+    UiUxWellpaidCareerComponent,
+    UiUxWhatWillLearnComponent
   ],
   imports: [
     BrowserModule,
