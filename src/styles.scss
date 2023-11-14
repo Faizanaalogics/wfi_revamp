@@ -15,10 +15,14 @@
     --black: #000000;
     --white: #fff;
     
+    
 
     --bs-body-font-family: 'Inter', 'sans-serif';
     --bs-primary-rgb: 217, 98, 0;
     // --bs-primary-rgb: #224DD0;
+}
+.text-primary{
+    color: var(--primary-color) !important;
 }
 .section_space{
     margin: 50px 0 100px;

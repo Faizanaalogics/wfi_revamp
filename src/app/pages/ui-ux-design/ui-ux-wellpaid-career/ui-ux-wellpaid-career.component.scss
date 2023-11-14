@@ -25,7 +25,14 @@
     //   }
       
       
-      
+      .ui-ux-wellpaid-career{
+        margin-bottom: 70px;
+        .ui-ux-wellpaid-career_title{
+          h2{
+            padding-bottom: 30px;
+          }
+        }
+      }
       
       
       @keyframes progressLineTransmission {

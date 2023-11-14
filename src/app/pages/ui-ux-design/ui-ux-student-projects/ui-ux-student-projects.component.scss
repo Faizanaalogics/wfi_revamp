@@ -1,0 +1,33 @@
+
+ .ui-ux-student-projects{
+    .student-projects-title{
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+        h2{
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+    }
+    .student-projects_list {
+        padding: 0 30px;
+    }
+    .student-projects_details {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        column-gap: 5px;
+        h5{
+            font-size: 20px;
+            margin-bottom: 0;
+            span {
+                font-weight: 400;
+            }
+        }
+        a{
+            color: var(--primary-color);
+        }
+    }
+    
+    
+ }
