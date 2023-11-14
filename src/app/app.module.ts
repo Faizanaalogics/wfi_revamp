@@ -29,6 +29,8 @@ import { UiUxBootcampExperienceComponent } from './pages/ui-ux-design/ui-ux-boot
 import { UiUxBootcampOverviewComponent } from './pages/ui-ux-design/ui-ux-bootcamp-overview/ui-ux-bootcamp-overview.component';
 import { UiUxWellpaidCareerComponent } from './pages/ui-ux-design/ui-ux-wellpaid-career/ui-ux-wellpaid-career.component';
 import { UiUxWhatWillLearnComponent } from './pages/ui-ux-design/ui-ux-what-will-learn/ui-ux-what-will-learn.component';
+import { UiUxStudentProjectsComponent } from './pages/ui-ux-design/ui-ux-student-projects/ui-ux-student-projects.component';
+import { PaymentOptionsComponent } from './pages/ui-ux-design/payment-options/payment-options.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +55,9 @@ import { UiUxWhatWillLearnComponent } from './pages/ui-ux-design/ui-ux-what-will
     UiUxBootcampExperienceComponent,
     UiUxBootcampOverviewComponent,
     UiUxWellpaidCareerComponent,
-    UiUxWhatWillLearnComponent
+    UiUxWhatWillLearnComponent,
+    UiUxStudentProjectsComponent,
+    PaymentOptionsComponent
   ],
   imports: [
     BrowserModule,
