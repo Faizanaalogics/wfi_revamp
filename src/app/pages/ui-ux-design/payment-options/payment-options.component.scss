@@ -2,95 +2,97 @@
     .text-primary{
         color: #000;
     }
-    .paymnet__option {
-        .text-primary {
-            font-size: 32px;
-            font-weight: 700;
-        }
-        a {
-            width: auto;
-            position: unset;
-            bottom: 50px;
-        }
-        p {
-            color: #7E7E7E;
-        }
-        .price-n-enroll-btn {
-            min-height: 315px;
-            position: relative;
-            border-radius: 1rem;
-            box-shadow: 0px 2px 5px 0px #CBCBCB;
-            @media only screen and (max-width: 768px) {
-                margin-top: 2rem;
+    .ui-ux-payment-options--details{
+        max-width: 86%;
+        margin: auto;
+        .paymnet__option {
+            .text-primary {
+                font-size: 32px;
+                font-weight: 700;
+            }
+            a {
+                width: auto;
+                position: unset;
+                bottom: 50px;
             }
             p {
-                font-size: .8rem;;
+                color: #7E7E7E;
             }
-            a.btn.btn-primary{
-                position: absolute;
-                bottom: 2rem;
-                width: calc(100% - 3rem);
-                left: 1.5rem;
+            .price-n-enroll-btn {
+                min-height: 315px;
+                position: relative;
+                border-radius: 1rem;
+                box-shadow: 0px 2px 5px 0px #CBCBCB;
+                @media only screen and (max-width: 768px) {
+                    margin-top: 2rem;
+                }
+                p {
+                    font-size: .8rem;;
+                }
+                a.btn.btn-primary{
+                    position: absolute;
+                    bottom: 2rem;
+                    width: calc(100% - 3rem);
+                    left: 1.5rem;
+                    border-radius: 0;
+                    padding: 10px 0;
+                }
+                .price {
+                    position: absolute;
+                    bottom: 5.5rem;
+                }
+            }
+        }
+        .dark-grey-bg {
+            background: rgba(217, 217, 217, 0.36);
+        }
+        .dark-light-bg {
+            background: #F8F9FA;
+        }
+        .grey-price-feature {
+            display: flex;
+            align-items: center;
+            padding: .75rem;
+            margin-top: 1.2rem;
+            .fa-check{
+                color: #D86200;
+            }
+            h4{
+                margin-bottom: 0;
+            }
+        }
+        .job-guarantee-text {
+            min-height: 155px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0px 2px 5px 0px #CBCBCB;
+            h2 .text-primary{font-size: inherit;}
+            a{
+                min-width: 30%;
+                display: block;
                 border-radius: 0;
                 padding: 10px 0;
             }
-            .price {
-                position: absolute;
-                bottom: 5.5rem;
+            @media only screen and (max-width: 768px) {
+                padding: 10px 5px !important;
             }
         }
-    }
-    .dark-grey-bg {
-        background: rgba(217, 217, 217, 0.36);
-    }
-    .dark-light-bg {
-        background: #F8F9FA;
-    }
-    .grey-price-feature {
-        display: flex;
-        align-items: center;
-        padding: .75rem;
-        margin-top: 1.2rem;
-        .fa-check{
-            color: #D86200;
-        }
-        h4{
+        p.small-text {
+            font-size: .8rem;
             margin-bottom: 0;
         }
-    }
-    .job-guarantee-text {
-        min-height: 155px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 1rem;
-        border-radius: 1rem;
-        box-shadow: 0px 2px 5px 0px #CBCBCB;
-        h2 .text-primary{font-size: inherit;}
-        a{
-            min-width: 30%;
-            display: block;
-            border-radius: 0;
-            padding: 10px 0;
-        }
-        @media only screen and (max-width: 768px) {
-            padding: 10px 5px !important;
-        }
-    }
-    p.small-text {
-        font-size: .8rem;
-        margin-bottom: 0;
-    }
-    .old-price {
-        font-size: 28px;
-        text-transform: uppercase;
-        font-weight: 700;
-        span{
-            text-decoration: line-through;
-            // font-size: 32px;
-            // font-weight: 700;
+        .old-price {
+            font-size: 28px;
+            text-transform: uppercase;
+            font-weight: 700;
+            span{
+                text-decoration: line-through;
+            }
         }
     }
 }

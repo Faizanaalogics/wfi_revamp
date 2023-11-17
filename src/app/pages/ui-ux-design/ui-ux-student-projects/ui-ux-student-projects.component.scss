@@ -1,8 +1,10 @@
 
  .ui-ux-student-projects{
     background-color: var(--white);
-    box-shadow: 0 10px 10px 0px lightgray;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 40px 0;
+    max-width: 90%;
+    margin: auto;
     .student-projects-title{
         max-width: 80%;
         margin: auto;
@@ -33,4 +35,11 @@
     }
     
     
+ }
+ @media only screen and (max-width: 767px){
+   .ui-ux-student-projects{
+        .student-projects_list_details {
+            margin-bottom: 40px;
+        }
+   } 
  }
