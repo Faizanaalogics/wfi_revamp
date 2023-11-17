@@ -210,4 +210,10 @@
     //   }
       /* media queries - end */
       
-          
+      @media only screen and (max-width: 767px){
+        .ui-ux-wellpaid-career{
+          .ui-ux-wellpaid-career-details{
+            margin-left: 0px;
+          }
+        }
+      }
