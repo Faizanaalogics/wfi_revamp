@@ -54,6 +54,7 @@ h2,
 h1,
 .h1 {
     font-weight: 600;
+    margin-bottom: 0;
 }
 h2{
     text-transform: capitalize; 
@@ -91,3 +92,90 @@ header#header{
     position: relative;
 }
 
+.our_graduates_are_saying .slick-next.slick-arrow{
+    right: -3px;
+    &:before {
+        content: "\f105";
+        font-family: 'FontAwesome';
+        color: var(--black);
+    }
+}
+.our_graduates_are_saying .slick-prev.slick-arrow{
+    left: -3px;
+    &:before {
+        content: "\f104";
+        font-family: 'FontAwesome';
+        color: var(--black);
+
+    }
+}
+.graduates_testimonials{
+    .slick-next.slick-arrow{
+        left: unset;
+        top: unset;
+        right: 70px;
+        bottom: -120px;
+        background: var(--secondry-color);
+        height: 50px;
+        width: 50px;
+        border-radius: 34px;
+        border: 1px solid;
+        transition: all 0.7s;
+        &:before {
+            content: "\f061";
+            font-family: 'FontAwesome';
+            color: var(--white);
+            opacity: 1;
+        } 
+        &:hover{
+            border: 1px solid #0e8c59;
+            background: transparent;
+            &:before {
+                color: var(--secondry-color);
+            } 
+        }
+    }
+    .slick-prev.slick-arrow{
+        left: unset;
+        top: unset;
+        right: 140px;
+        bottom: -120px;
+        background: var(--secondry-color);
+        height: 50px;
+        width: 50px;
+        border-radius: 34px;
+        border: 1px solid;
+        transition: all 0.7s;
+        &:before {
+            content: "\f060";
+            font-family: 'FontAwesome';
+            color: var(--white);
+            opacity: 1;
+    
+        } 
+        &:hover{
+            border: 1px solid #0e8c59;
+            background: transparent;
+            &:before {
+                color: var(--secondry-color);
+            } 
+        }
+    }
+}
+
+.section__title{
+    
+}
+
+// .cms-uta-ai-ml .breadcrumb-area.bootcamp_page .buttonsWrapper .btn-qs-theme{
+//     background: transparent !important;
+//     border: 2px solid;
+// }
+// .cms-uta-ui-ux-design  .breadcrumb-area.bootcamp_page .buttonsWrapper .btn-qs-theme{
+//     background: transparent !important;
+//     border: 2px solid;
+// }
+// .cms-uta-digital-marketing .breadcrumb-area.bootcamp_page .buttonsWrapper .btn-qs-theme{
+//     background: transparent !important;
+//     border: 2px solid;
+// }

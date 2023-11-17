@@ -1,0 +1,54 @@
+.ui-ux-instructor{
+    background-image: url("../../../../assets/images/instructor-bg.webp");
+    height: auto;
+    width: 100%;
+    padding: 30px 0 70px;
+    .ui-ux-instructor-title{
+        text-align: center;
+        padding: 40px 0;
+    }
+    .instructor-slide {
+        background: white;
+        box-shadow: 0 10px 10px 1px #d9d9d9;
+        border-radius: 40px;
+        padding: 30px;
+        .instructor-slide-image {
+            border-radius: 40px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        .instructor-slide-details {
+            h5 {
+                font-size: 30px;
+            }
+            p {
+                color:gray;
+                font-size:14px;
+            }
+        }
+        .instructor-slide-action {
+            text-align:right;
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                text-decoration: none;
+                color: var(--primary-color);
+                &:before{
+                    content: "";
+                    background-image: url("../../../../assets/images/long-arrow.svg");
+                    width: 65%;
+                    height: 9px;
+                    display: block;
+                    background-repeat: no-repeat;
+                }
+            }
+           
+        }
+    }
+
+}
+
+
+
+

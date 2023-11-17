@@ -1,0 +1,28 @@
+.next-ux-design{
+    max-width: 80%;
+    margin: auto;
+    background-color: var(--primary-color);
+        padding: 25px 50px;
+    .row .col-md-6 {
+        padding: 0;
+    }
+    
+    .next-ux-design-details {
+        background: var(--white);
+        height: 100%;
+        padding: 20px 100px 40px 40px;
+    }
+    .next-ux-design-details{
+        form{
+            input{
+                width: 100%;
+                margin-top: 20px;
+                height: 35px;
+            }
+            a{
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+}

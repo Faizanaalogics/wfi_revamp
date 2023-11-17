@@ -1,6 +1,6 @@
 .our_graduates_are_saying{
     background: var(--bs-blue);
-    padding-bottom: 70px !important;
+    padding-bottom: 120px;
     .our_graduates__saying{
         display: flex;
         column-gap: 10px;
@@ -13,13 +13,18 @@
     .graduate-carousel_title{
         color: var(--white);
     }
+    
+   
 }
 .graduates_testimonials{
     margin-top: 90px;
     .graduates_reviews {
-        background: var(--white);
+        background: transparent;
         padding: 15px 15px;
         height: 100%;
+        color: var(--white);
+        border: 2px solid #63D68B;
+        transition: all 0.9s;
         .graduates_reviews_top_section {
             display: flex;
             align-items: center;
@@ -49,6 +54,11 @@
         }
         .graduates_reviews_description{
             margin-top: 20px;
+            color: var(--grey);
+        }
+        &:hover{
+            background: var(--white);
+            border: 2px solid #63D68B;
             color: var(--grey);
         }
     }
