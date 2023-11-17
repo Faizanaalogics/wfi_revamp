@@ -35,6 +35,12 @@ import { InstructorsComponent } from './pages/ui-ux-design/instructors/instructo
 import { NextUxDesignComponent } from './pages/ui-ux-design/next-ux-design/next-ux-design.component';
 import { FaqsComponent } from './pages/ui-ux-design/faqs/faqs.component';
 import { NeedInformationComponent } from './pages/ui-ux-design/need-information/need-information.component';
+import { DigitalMarketingComponent } from './pages/digital-marketing/digital-marketing.component';
+import { DigitalMarketingBannerComponent } from './pages/digital-marketing/digital-marketing-banner/digital-marketing-banner.component';
+import { MarketingBootcampExperienceComponent } from './pages/digital-marketing/marketing-bootcamp-experience/marketing-bootcamp-experience.component';
+import { MarketingWellpaidCareerComponent } from './pages/digital-marketing/marketing-wellpaid-career/marketing-wellpaid-career.component';
+import { MarketingBootcampOverviewComponent } from './pages/digital-marketing/marketing-bootcamp-overview/marketing-bootcamp-overview.component';
+import { MarketingWhatWillLearnComponent } from './pages/digital-marketing/marketing-what-will-learn/marketing-what-will-learn.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +71,13 @@ import { NeedInformationComponent } from './pages/ui-ux-design/need-information/
     InstructorsComponent,
     NextUxDesignComponent,
     FaqsComponent,
-    NeedInformationComponent
+    NeedInformationComponent,
+    DigitalMarketingComponent,
+    DigitalMarketingBannerComponent,
+    MarketingBootcampExperienceComponent,
+    MarketingWellpaidCareerComponent,
+    MarketingBootcampOverviewComponent,
+    MarketingWhatWillLearnComponent
   ],
   imports: [
     BrowserModule,
