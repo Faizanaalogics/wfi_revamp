@@ -1,0 +1,33 @@
+.ui-ux-faqs{
+    padding: 30px;
+    border-radius: 20px;
+    background: #FAFAFA;
+    box-shadow: 6px 10px 25px -7px rgba(0, 0, 0, 0.25);
+    .ui-ux-faqs-title {
+        text-align: center;
+        margin: 40px 0 ;
+    }
+    .accordion-item {
+        border-bottom: 0;
+        button.accordion-button.collapsed{
+            &::after{
+                transform: rotate(-90deg);
+                // background-color: green;
+                // border-radius: 23px;
+                // padding: 15px;
+            }
+        }
+        button.accordion-button {
+            box-shadow: 0 0px 10px 1px lightgray;
+            border-radius:5px;
+            margin-bottom:10px;
+            &::after{
+                transform: rotate(0deg);
+            }
+        }
+        .accordion-button:not(.collapsed){
+            background-color: var(--primary-color);
+            color: var(--white);
+        }
+    }
+}

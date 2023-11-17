@@ -31,6 +31,10 @@ import { UiUxWellpaidCareerComponent } from './pages/ui-ux-design/ui-ux-wellpaid
 import { UiUxWhatWillLearnComponent } from './pages/ui-ux-design/ui-ux-what-will-learn/ui-ux-what-will-learn.component';
 import { UiUxStudentProjectsComponent } from './pages/ui-ux-design/ui-ux-student-projects/ui-ux-student-projects.component';
 import { PaymentOptionsComponent } from './pages/ui-ux-design/payment-options/payment-options.component';
+import { InstructorsComponent } from './pages/ui-ux-design/instructors/instructors.component';
+import { NextUxDesignComponent } from './pages/ui-ux-design/next-ux-design/next-ux-design.component';
+import { FaqsComponent } from './pages/ui-ux-design/faqs/faqs.component';
+import { NeedInformationComponent } from './pages/ui-ux-design/need-information/need-information.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +61,11 @@ import { PaymentOptionsComponent } from './pages/ui-ux-design/payment-options/pa
     UiUxWellpaidCareerComponent,
     UiUxWhatWillLearnComponent,
     UiUxStudentProjectsComponent,
-    PaymentOptionsComponent
+    PaymentOptionsComponent,
+    InstructorsComponent,
+    NextUxDesignComponent,
+    FaqsComponent,
+    NeedInformationComponent
   ],
   imports: [
     BrowserModule,

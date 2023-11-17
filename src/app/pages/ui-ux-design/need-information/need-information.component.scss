@@ -1,0 +1,39 @@
+.ui-ux-need-information{
+    background-color: var(--secondry-color);
+    padding: 50px 0;
+    .need-information-title {
+        text-align: center;
+        color: white;
+        // padding: 0 70px;
+        p{
+            padding: 40px 70px 20px;
+
+        }
+    }
+    .need-information-description {
+        max-width: 80%;
+        margin: auto;
+        .need-information-description-details{
+            background-color: var(--white);
+            padding: 30px;
+            h3{
+                // padding:30px 100px 30px 30px;
+            }
+            .need-information-details-date{
+                border: 1px solid var(--primary-color);
+                margin-top: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--primary-color);
+                padding: 20px 0;
+
+            }
+        }
+        .need-information-description-form{
+            background-color: var(--white);
+        }
+    }
+    
+
+}
