@@ -1,0 +1,213 @@
+      /* global variables */
+    //   :root {
+    //     /* color */
+    //     --color0: hsl(229, 57%, 11%);
+    //     --color0Trans: hsl(229, 57%, 11%, 0.85);
+    //     --color1: hsl(228, 56%, 26%);
+    //     --color2: hsl(243, 61%, 24%);
+    //     --color3: hsl(229, 7%, 55%);
+    //     --color4: hsl(230, 55%, 18%);
+    //     --color5: hsl(0, 67%, 27%);
+      
+    //     /* gradient */
+    //     --gradient: linear-gradient(
+    //       90deg,
+    //       hsl(6, 100%, 80%) 0%,
+    //       hsl(335, 100%, 65%) 100%
+    //     );
+      
+    //     /* font size */
+    //     --fontSize: 14px;
+      
+    //     /* font weight */
+    //     --regularFont: 400;
+    //     --boldFont: 700;
+    //   }
+      
+      
+    .marketing-wellpaid-career{
+        margin-bottom: 70px;
+        .marketing-wellpaid-career_title{
+          h2{
+            padding-bottom: 30px;
+          }
+        }
+      }
+      
+      
+      @keyframes progressLineTransmission {
+        from {
+          width: 4%;
+        }
+      
+        to {
+          width: 81.5%;
+        }
+      }
+      
+      
+      
+      .text-center.marketing-wellpaid-career-details {
+        background: white;
+        box-shadow: 0 0 10px 1px lightgray;
+        padding: 50px;
+        margin-left: 70px;
+    }
+      
+      
+      /* section1 - end */
+      
+      /* section2 - start */
+      .section2 {
+        background-color: var(--color1);
+        min-width: 450px;
+        height: 75%;
+        padding: 30px;
+        border-radius: 8px;
+        position: relative;
+      }
+      
+      
+      
+      
+      
+      
+      span.section2__progressBarCircle{
+        color: var(--white);
+      }
+      .section2__progressBar {
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        padding: 0px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow: 0 0 10px 1px lightgray;
+      }
+      .section2__progressBarContainer {
+        margin-bottom: 30px;
+        }
+      
+      .section2__progressBarRect {
+        background-image: radial-gradient(#0E8C59, #0E8C59);
+        height: 100%;
+        padding-left: 20px;
+        border-radius: inherit;
+        animation: progressLineTransmission 2.5s 0.3s ease-in-out both;
+      
+        /* flex */
+        display: flex;
+        align-items: center;
+        border-radius: 0 3px 3px 0;
+        // justify-content: flex-end;
+      }
+      
+      /* .section2__progressBarCircle {
+        background-color: var(--color5);
+        height: calc(14px - 4px);
+        width: calc(14px - 4px);
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      } */
+      
+      /* .section2__progressBarPoint {
+        color: var(--color2);
+        margin-top: 8px;
+        font-size: 12px;
+        font-weight: var(--boldFont);
+        position: absolute;
+      } */
+      
+    //   .section2__progressBarPoint--start {
+    //     left: 0;
+    //   }
+      
+    //   .section2__progressBarPoint--end {
+    //     right: 0;
+    //   }
+      
+      /* .section2__storageLeft {
+        background-color: var(--color5);
+        width: fit-content;
+        padding: 20px;
+        border-radius: 8px 8px 0px; */
+      
+        /* flex */
+      /*   display: flex;
+        justify-content: center;
+        align-items: center; */
+      
+        /* position */
+      /*   position: absolute;
+        top: 0;
+        right: 30px;
+        transform: translateY(-70%); */
+      /* } */
+      
+      
+      
+      
+      
+      
+      /* section2 - end */
+      
+      /* media queries - start */
+    //   @media (max-width: 861px) {
+    //     @keyframes progressLineTransmission {
+    //       from {
+    //         width: 6%;
+    //       }
+      
+    //       to {
+    //         width: 81.5%;
+    //       }
+    //     }
+      
+       
+      
+    //     .container {
+    //       width: auto;
+    //       height: auto;
+    //       flex-direction: column;
+    //       align-items: center;
+    //     }
+      
+    //     .section1 {
+    //       height: 185px;
+    //       padding: 35px 130px 35px 35px;
+    //     }
+      
+    //     .section2 {
+    //       width: 100%;
+    //       min-width: unset;
+    //       padding: 30px 30px 70px 30px;
+    //       margin-top: 15px;
+    //     }
+      
+    //     .section2__storageLeft {
+    //       padding: 20px;
+    //       border-radius: 8px;
+      
+    //       /* position */
+    //       right: unset;
+    //       left: 50%;
+    //       top: unset;
+    //       bottom: 0;
+    //       transform: translate(-50%, 50%);
+    //     }
+      
+    //     .section2__storageLeft::before {
+    //       content: none;
+    //     }
+    //   }
+      
+    //   @media (max-width: 381px) {
+    //     .container {
+    //       transform: scale(0.8);
+    //     }
+    //   }
+      /* media queries - end */
+      
+          
