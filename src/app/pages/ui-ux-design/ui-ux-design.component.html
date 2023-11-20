@@ -1,5 +1,16 @@
 
 <app-ui-ux-banner></app-ui-ux-banner>
+<section class="our__partners">
+    <div class="container ">
+        <button (click)="scrollTo('target-element-1')" [class.active]="activeElement === 'target-element-1'">Bootcamp Experience</button>
+        <button (click)="scrollTo('target-element-2')" [class.active]="activeElement === 'target-element-2'">Salaries & Careers </button>
+        <button (click)="scrollTo('target-element-3')" [class.active]="activeElement === 'target-element-3'">Curriculum</button>
+        <button (click)="scrollTo('target-element-4')" [class.active]="activeElement === 'target-element-4'">Student Projects </button>
+        <button (click)="scrollTo('target-element-5')" [class.active]="activeElement === 'target-element-5'">Prices</button>
+        <button (click)="scrollTo('target-element-6')" [class.active]="activeElement === 'target-element-6'">Instructors</button>
+        <button (click)="scrollTo('target-element-7')" [class.active]="activeElement === 'target-element-7'">FAQ</button>
+    </div>
+</section>
 <app-our-graduates></app-our-graduates>
 <app-ui-ux-bootcamp-experience></app-ui-ux-bootcamp-experience>
 <app-ui-ux-bootcamp-overview></app-ui-ux-bootcamp-overview>

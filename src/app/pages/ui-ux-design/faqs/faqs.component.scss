@@ -11,10 +11,18 @@
         border-bottom: 0;
         button.accordion-button.collapsed{
             &::after{
-                transform: rotate(-90deg);
-                // background-color: green;
-                // border-radius: 23px;
-                // padding: 15px;
+                background: #63D68B;
+                height: 35px;
+                width: 35px;
+                border-radius: 30px;
+                color: rgb(255, 255, 255);
+                font-size: 20px;
+                content: "\f105";
+                font-family: 'FontAwesome';
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            
             }
         }
         button.accordion-button {
@@ -22,7 +30,17 @@
             border-radius:5px;
             margin-bottom:10px;
             &::after{
-                transform: rotate(0deg);
+                background: #ffffff;
+                height: 35px;
+                width: 35px;
+                border-radius: 30px;
+                color: var(--primary-color);
+                font-size: 20px;
+                content: "\f106";
+                font-family: 'FontAwesome';
+                align-items: center;
+                justify-content: center;
+                display: flex;
             }
         }
         .accordion-button:not(.collapsed){

@@ -179,3 +179,25 @@ header#header{
 //     background: transparent !important;
 //     border: 2px solid;
 // }
+
+
+.our__partners {
+    background-color: #fff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    // margin-top: 15px;
+    text-align: center;
+
+    button {
+        background: transparent;
+        border: none;
+        font-size: 18px;
+        padding: 15px;
+        border-top: solid 4px #fff;
+        &:hover {
+            border-top: solid 4px var(--primary-color);
+        }
+        &.active {
+            border-top: solid 4px var(--primary-color);
+        }
+    }
+}
