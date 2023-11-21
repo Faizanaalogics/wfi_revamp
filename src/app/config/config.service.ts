@@ -16,6 +16,10 @@ export class ConfigService {
   private productdm = this.apiDomain + "products/digital-marketing-12-weeks";
   private productpmp = this.apiDomain + "products/pmp_paycove_sku";
 
+//Revamp start
+  private about_us = this.cmsBlockhUrl + "rv-about-us";
+  private about_us_classroom = this.cmsBlockhUrl + "rv-about-us-classroom";
+//revamp end
   private homeUrl = this.cmsPageUrl + "new-home";
   private homeBanner = this.cmsBlockhUrl + "home_banner";
   private jobGuarantee = this.cmsBlockhUrl + "job_guarantee";
@@ -80,6 +84,15 @@ private apiHeader = {
   getbootcampWork() {
     return this.httpClient.get(this.bootcampWork, this.requestOptions);
   }
+
+    /** About Us Revamp */
+    getRV_About() {
+      return this.httpClient.get(this.about_us, this.requestOptions);
+    }
+    getRV_About_Classroom() {
+      return this.httpClient.get(this.about_us_classroom, this.requestOptions);
+    }
+    /** About Us Revamp */
   // getBlogs() {
   //   return this.httpClient.get(this.homeBlog, this.requestOptions);
   // }

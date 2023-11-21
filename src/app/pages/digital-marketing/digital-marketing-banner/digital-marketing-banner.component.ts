@@ -11,7 +11,7 @@ export class DigitalMarketingBannerComponent {
     hbspt.forms.create({
       region: "na1",
       portalId: "7305468",
-      formId: "fc33424c-4d8c-4208-a330-6850e4ed0eb6",
+      formId: "bc70e03c-6473-4d8f-bacc-8123b6239683",
       target: "#hubspotForms"
     });
   }
